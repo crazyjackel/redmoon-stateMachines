@@ -1,0 +1,11 @@
+{
+  "author": {
+    "name": "Jackson Levitt",
+    "email": "jackel1020@protonmail.com"
+  },
+  "description": "Injectable Lightweight State Machines",
+  "displayName": "Red Moon State Machines",
+  "name": "io.crazyjackel.redmoon-statemachines",
+  "unity": "2020.3",
+  "version": "1.0.0"
+}
