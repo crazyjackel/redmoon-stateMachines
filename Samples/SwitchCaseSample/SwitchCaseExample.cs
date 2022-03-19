@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using RedMoon.StateMachines;
 using UnityEngine.Events;
-using Bewildered;
+using RedMoon.StateMachines;
 
 public class SwitchCaseExample : MonoBehaviour
 {

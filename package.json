@@ -7,5 +7,15 @@
   "displayName": "Red Moon State Machines",
   "name": "io.crazyjackel.redmoon-statemachines",
   "unity": "2020.3",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "gitDependencies": {
+    "com.bewildered.core": "https://github.com/MechWarrior99/Bewildered-Core.git"
+  },
+  "samples": [
+    {
+      "displayName": "Switch Case Demo",
+      "description": "Shows a Basic Inspector for SwitchCase",
+      "path": "Samples/SwitchCaseSample"
+    }
+  ]
 }
