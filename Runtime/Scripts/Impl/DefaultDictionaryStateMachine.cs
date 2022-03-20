@@ -22,5 +22,17 @@ namespace RedMoon.StateMachines
         {
             caseStatePairs.Add(@case, @state);
         }
+        /// <summary>
+        /// Links a Case to another Case's State
+        /// </summary>
+        /// <param name="addCase">Case to Link</param>
+        /// <param name="baseCase">Case to Access State</param>
+        public void AddCase(TCase @case, TCase baseCase)
+        {
+            if(caseStatePairs.TryGetValue(baseCase, out TState state))
+            {
+                AddCase(@case, state);
+            }
+        }
     }
 }

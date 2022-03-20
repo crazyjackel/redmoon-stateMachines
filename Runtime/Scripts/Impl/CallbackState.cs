@@ -11,9 +11,9 @@ namespace RedMoon.StateMachines
         where TStateMachine : IStateMachine<TStateMachine, TCase, CallbackState<TCase, TStateMachine>>
     {
         [SerializeField]
-        private UnityEvent<TStateMachine, TCase> m_action;
+        private CallbackEvent<TStateMachine, TCase> m_action;
 
-        public CallbackState(UnityEvent<TStateMachine, TCase> action)
+        public CallbackState(CallbackEvent<TStateMachine, TCase> action)
         {
             this.m_action = action;
         }
